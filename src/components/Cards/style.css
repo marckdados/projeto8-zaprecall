@@ -1,0 +1,35 @@
+.flashcard {
+  width: 80%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  padding: 0 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px rgb(54, 54, 54);
+  font-family: "Recursive";
+  position: relative;
+}
+
+.flashcard span {
+  font-size: 1.2em;
+}
+
+.flashcard ion-icon {
+  font-size: 2em;
+}
+
+.pergunta {
+  height: 20vh;
+  align-items: initial;
+  background-color: #ffffd4;
+  padding: 15px;
+}
+
+.icone {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}

@@ -1,0 +1,36 @@
+.tela-dois {
+  width: 100%;
+  background-color: #fb6b6b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10vh;
+}
+.logo-cards {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+.logo-cards img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.caixa-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caixa-concluidos {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
